@@ -1,0 +1,26 @@
+You are analyzing customer reviews.
+
+For each review:
+* Note the positive comments.
+* Note the negative comments.
+* If both appear, mention whether the sentiment is mixed.
+* Briefly explain your reasoning in under 3 bullet points.
+* Give a final sentiment label: Positive, Neutral, or Negative.
+
+
+
+Example:
+Review: "The camera is great, but the battery drains quickly."
+
+Positive:
+* camera is great
+
+Negative:
+* battery drains quickly
+
+Reasoning:
+The review mentions a strong positive feature and one clear drawback. The overall experience is mixed, but the positive feedback is slightly stronger.
+
+Sentiment: Positive
+Now analyze this review:
+{review}
