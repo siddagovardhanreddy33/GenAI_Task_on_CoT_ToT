@@ -1,0 +1,6 @@
+TREE OF THOUGHT ANALYSIS
+
+Best Configuration: C4
+n_estimators=100
+max_depth=3
+CV Accuracy=0.9667

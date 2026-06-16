@@ -1,0 +1,40 @@
+You are a machine learning expert.
+
+Analyze the hyperparameter tuning results using
+Tree-of-Thought reasoning.
+
+Follow these steps:
+
+STEP 1:
+Group configurations into:
+- Low Complexity
+- Medium Complexity
+- High Complexity
+
+STEP 2:
+For each group evaluate:
+- CV Accuracy
+- Train Accuracy
+- Train vs Validation Gap
+- Training Time
+
+STEP 3:
+Determine:
+- Underfitting Risk
+- Good Generalization
+- Overfitting Risk
+
+STEP 4:
+Compare the best candidate from each group.
+
+STEP 5:
+Select the overall best configuration.
+
+Provide output in Tree-of-Thought format:
+
+Root Node
+ ├─ Branch A
+ ├─ Branch B
+ └─ Branch C
+
+End with a final recommendation.
